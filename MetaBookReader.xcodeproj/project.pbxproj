@@ -1,0 +1,46 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+8620DF3317DFF371418A1E94 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/BookReaderApp.swift"; sourceTree = SOURCE_ROOT; };
+824AFAEFCF17B0CB1356BCF2 = { isa = PBXBuildFile; fileRef = 8620DF3317DFF371418A1E94; };
+43842EDFB33CE3ABE1BEE95E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/BookReaderModel.swift"; sourceTree = SOURCE_ROOT; };
+9C8E2ABB6A202898574925C8 = { isa = PBXBuildFile; fileRef = 43842EDFB33CE3ABE1BEE95E; };
+0DE869579A7A55F08303E6B3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/BookReaderView.swift"; sourceTree = SOURCE_ROOT; };
+2D06A11D1C2BDBE030AEBDD4 = { isa = PBXBuildFile; fileRef = 0DE869579A7A55F08303E6B3; };
+F02C8DE6FD622DF20C680E69 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/BookSummaryService.swift"; sourceTree = SOURCE_ROOT; };
+D1107005698561899E5C4F1C = { isa = PBXBuildFile; fileRef = F02C8DE6FD622DF20C680E69; };
+5E91CE5472C91DE8C359BB21 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/KeychainStore.swift"; sourceTree = SOURCE_ROOT; };
+8568E238B42EFEFC6550C924 = { isa = PBXBuildFile; fileRef = 5E91CE5472C91DE8C359BB21; };
+A4B1C446E75839CEE9AAD3FF = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Media/AudioCaptureHandler.swift"; sourceTree = SOURCE_ROOT; };
+EAC692C5D36F27819D1FBC5A = { isa = PBXBuildFile; fileRef = A4B1C446E75839CEE9AAD3FF; };
+E79B11A3C40DF9DCDFA50B7E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Media/AudioInputHandler.swift"; sourceTree = SOURCE_ROOT; };
+BBFD3C902C9A84983B6E751D = { isa = PBXBuildFile; fileRef = E79B11A3C40DF9DCDFA50B7E; };
+78B4859EDE842F609EA7DDAF = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Media/VideoCaptureHandler.swift"; sourceTree = SOURCE_ROOT; };
+80244E34A64AC7B3C4A1D700 = { isa = PBXBuildFile; fileRef = 78B4859EDE842F609EA7DDAF; };
+C5839D8376B5402DFC6C28E7 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Media/VideoFrameDecoder.swift"; sourceTree = SOURCE_ROOT; };
+DBC9F0DA7E1E368BA28904A8 = { isa = PBXBuildFile; fileRef = C5839D8376B5402DFC6C28E7; };
+911056C43D061861D624FE68 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Media/VideoRecorder.swift"; sourceTree = SOURCE_ROOT; };
+7C17664C29BC78A7E21054B6 = { isa = PBXBuildFile; fileRef = 911056C43D061861D624FE68; };
+BB86EE2EE3127C256C24B5DE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/ViewModels/CameraViewModel.swift"; sourceTree = SOURCE_ROOT; };
+A0F30DCF2BFDABB5A5398327 = { isa = PBXBuildFile; fileRef = BB86EE2EE3127C256C24B5DE; };
+67AF7CF115740BE0FD9EC13B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/ViewModels/WearablesViewModel.swift"; sourceTree = SOURCE_ROOT; };
+6D99369ACEF33C3CC97AA2A3 = { isa = PBXBuildFile; fileRef = 67AF7CF115740BE0FD9EC13B; };
+38A007151ABE87CC01A5B6E9 = { isa = PBXFileReference; explicitFileType = wrapper.application; path = MetaBookReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (38A007151ABE87CC01A5B6E9,); name = Products; sourceTree = "<group>"; };
+B28B7AF69320201D1CF206EB = { isa = PBXGroup; children = (8620DF3317DFF371418A1E94, 43842EDFB33CE3ABE1BEE95E, 0DE869579A7A55F08303E6B3, F02C8DE6FD622DF20C680E69, 5E91CE5472C91DE8C359BB21, A4B1C446E75839CEE9AAD3FF, E79B11A3C40DF9DCDFA50B7E, 78B4859EDE842F609EA7DDAF, C5839D8376B5402DFC6C28E7, 911056C43D061861D624FE68, BB86EE2EE3127C256C24B5DE, 67AF7CF115740BE0FD9EC13B, FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+BCE16DD0260827ECF338C787 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (824AFAEFCF17B0CB1356BCF2, 9C8E2ABB6A202898574925C8, 2D06A11D1C2BDBE030AEBDD4, D1107005698561899E5C4F1C, 8568E238B42EFEFC6550C924, EAC692C5D36F27819D1FBC5A, BBFD3C902C9A84983B6E751D, 80244E34A64AC7B3C4A1D700, DBC9F0DA7E1E368BA28904A8, 7C17664C29BC78A7E21054B6, A0F30DCF2BFDABB5A5398327, 6D99369ACEF33C3CC97AA2A3,); runOnlyForDeploymentPostprocessing = 0; };
+0189424A5A60FED329FA868E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+4242AE5FE71A65C94A0E5D25 = { isa = XCSwiftPackageProductDependency; package = 582681C2EAE02B3F3D399C0C; productName = MWDATCore; };
+968A93C2BBC4DFA4352746E6 = { isa = PBXBuildFile; productRef = 4242AE5FE71A65C94A0E5D25; };
+5E13FB7FCBD08086D8F1623C = { isa = XCSwiftPackageProductDependency; package = 582681C2EAE02B3F3D399C0C; productName = MWDATCamera; };
+4468AD530139545519A0A859 = { isa = PBXBuildFile; productRef = 5E13FB7FCBD08086D8F1623C; };
+7561BFB015D8F536760CB671 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (968A93C2BBC4DFA4352746E6, 4468AD530139545519A0A859,); runOnlyForDeploymentPostprocessing = 0; };
+582681C2EAE02B3F3D399C0C = { isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/facebook/meta-wearables-dat-ios"; requirement = { kind = exactVersion; version = 1.0.0; }; };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { CLANG_ENABLE_MODULES = "YES"; SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "17.2"; SWIFT_VERSION = "6.3"; SWIFT_STRICT_CONCURRENCY = "complete"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = "dwarf"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG"; }; };
+7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; name = Debug; buildSettings = { PRODUCT_NAME = "MetaBookReader"; PRODUCT_BUNDLE_IDENTIFIER = "com.example.metabookreader"; INFOPLIST_FILE = "Sources/Info.plist"; GENERATE_INFOPLIST_FILE = "NO"; CODE_SIGN_STYLE = "Automatic"; DEVELOPMENT_TEAM = ""; CURRENT_PROJECT_VERSION = "1"; MARKETING_VERSION = "0.1.0"; TARGETED_DEVICE_FAMILY = "1"; META_APP_ID = "0"; CLIENT_TOKEN = ""; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; }; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; name = Release; buildSettings = { CLANG_ENABLE_MODULES = "YES"; SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "17.2"; SWIFT_VERSION = "6.3"; SWIFT_STRICT_CONCURRENCY = "complete"; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = ""; }; };
+639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; name = Release; buildSettings = { PRODUCT_NAME = "MetaBookReader"; PRODUCT_BUNDLE_IDENTIFIER = "com.example.metabookreader"; INFOPLIST_FILE = "Sources/Info.plist"; GENERATE_INFOPLIST_FILE = "NO"; CODE_SIGN_STYLE = "Automatic"; DEVELOPMENT_TEAM = ""; CURRENT_PROJECT_VERSION = "1"; MARKETING_VERSION = "0.1.0"; TARGETED_DEVICE_FAMILY = "1"; META_APP_ID = "0"; CLIENT_TOKEN = ""; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; }; };
+862894B703A6DEDF96A9DD6C = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178, E6DE6C99132752C914FEF632,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+C57128001CE614BF8549D6BB = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A, 639A7CA24D39909E713B47F7,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; name = MetaBookReader; productName = MetaBookReader; productReference = 38A007151ABE87CC01A5B6E9; productType = "com.apple.product-type.application"; buildConfigurationList = C57128001CE614BF8549D6BB; buildPhases = (BCE16DD0260827ECF338C787, 7561BFB015D8F536760CB671, 0189424A5A60FED329FA868E,); buildRules = (); dependencies = (); packageProductDependencies = (4242AE5FE71A65C94A0E5D25, 5E13FB7FCBD08086D8F1623C,); };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastUpgradeCheck = 2640; }; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, Base, ja); mainGroup = B28B7AF69320201D1CF206EB; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E,); packageReferences = (582681C2EAE02B3F3D399C0C,); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }
